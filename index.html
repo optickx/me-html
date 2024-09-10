@@ -7,43 +7,47 @@
 </head>
 
 <body>
-    <a>
-        <a>
-            <img src="./img/prof-pic.png">
-        </a>
-        
-        <div class="title"> <!--Cabecera / intro-->
-            <h1>Daniel Barrios Abad</h1>
-            <p>
-                Estudiante de informática en CIFP Txurdinaga. 
-                <!--Fan del jazz. R.I.P. John Coltrane-->
-            </p>
-        </div>
 
-        <div class="section1"> <!-- Información general-->
-            <div>
-                <h2>Estudios</h2>
-            <ul>
-                <li>Bachillerato</li>
-                <li>Desarrollo de Apps Multiplataforma</li>
-            </ul>
-
-            <h2>Experiencia laboral</h2>
-            <ul>
-                <li>Atención al cliente Euskaltel</li>
-                <li>Clases de inglés particular</li>
-            </ul>
-
-            <h2>Habilidades</h2>
-            <ul>
-                <li>C1 Inglés</li>
-                <li>Carnet de conducir</li>
-            </ul>
+    <div class="container">
+        <!--El primer bloque contiene la foto y el nombre junto a la presentación breve.-->
+        <header class="header">
+            <div class="intro">
+                <h1>Daniel Barrios Abad</h1>
+                <p>Estudiante de informática en CIFP Txurdinaga.</p>
             </div>
-        </div>
+            <div class="profile-pic">
+                <img src="./img/prof-pic.png" alt="Daniel Barrios">
+            </div>
+        </header>
+        <!--El segundo bloque contiene todo lo demás, 
+        tres bloques identicos con informacion sobre experiencia y formación-->
+        <main class="content">
+            <section class="section">
+                <h2>Estudios</h2>
+                <ul>
+                    <li>Bachillerato</li>
+                    <li>Desarrollo de Apps Multiplataforma</li>
+                </ul>
+            </section>
 
+            <section class="section">
+                <h2>Experiencia laboral</h2>
+                <ul>
+                    <li>Atención al cliente Euskaltel</li>
+                    <li>Clases de inglés particular</li>
+                </ul>
+            </section>
 
-    </a>
+            <section class="section">
+                <h2>Habilidades</h2>
+                <ul>
+                    <li>C1 Inglés</li>
+                    <li>Carnet de conducir</li>
+                </ul>
+            </section>
+        </main>
+    </div>
+
 </body>
 
 </html>
