@@ -9,6 +9,7 @@ body {
     width: 50%;
     padding: 10px;
     
+    font-family: Verdana, Helvetica, sans-serif;
 
     /*font-weight: bold;*/
     color: rgb(0, 0, 0);
@@ -27,18 +28,16 @@ img {
 }
 
 div {
-    
     margin: 30px;
-    
-}
-
-.title {
-    text-align: center;
     background-color: rgba(255, 255, 255, 0.212);
     border-radius: 1em;
 }
 
+.title {
+    text-align: center;
+    
+}
+
 .section1 {
-    background-color: rgba(255, 255, 255, 0.112);
-    border-radius: 1em;
+    
 }
